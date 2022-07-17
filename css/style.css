@@ -1,0 +1,205 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    color: #EF4423;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #3A3838;
+    transition: 0.4s;
+}
+
+.logo a {
+    color: #000;
+    text-decoration: none;
+}
+
+.logo p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.nav {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.exit-img {
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.preview {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.preview .card {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.preview img {
+    width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.red {
+    background: #B71C1C;
+    padding-bottom: 15px;
+}
+
+.red img {
+    margin-bottom: 8px;
+}
+
+.violet {
+    background: #6A1B9A;
+    padding-top: 15px;
+}
+
+.violet img {
+    margin-top: 8px;
+}
+
+.blue {
+    background: #303F9F;
+    padding-bottom: 15px;
+}
+
+.blue img {
+    margin-bottom: 8px;
+}
+
+.green {
+    background: #00695C;
+    padding-top: 15px;
+}
+
+.green img {
+    margin-top: 8px;
+}
+
+.card .title {
+    color: #fff;
+    font-size: 19px;
+    padding: 0 15px;
+    margin-bottom: 8px;
+}
+
+.card .desc {
+    color: #EBEBEB;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.news {
+    margin-bottom: 50px;
+}
+
+.news .content {
+    background: #EDEDED;
+}
+
+.news .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news .title {
+    color: #3A3838;
+    margin: 40px 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.news .subtitle {
+    font-size: 22px;
+    color: #3A3838;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.news .desc {
+    color: #686868;
+    font-size: 18px;
+}
+
+.news img {
+    max-width: 555px;
+    width: 100%;
+    margin-left: -15px;
+    object-fit: cover;
+}
+
+.news .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .box {
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background: #3A3838;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.footer .logo {
+    padding: 28px 0;
+}
+
+.footer .nav {
+    margin: 0;
+}
